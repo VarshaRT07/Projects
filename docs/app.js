@@ -176,7 +176,7 @@ const displaySpecificCountry = async (val) =>{
    
     
  </div>`
-
+ specific.classList.remove('hidden')
   
   }
 
@@ -229,7 +229,7 @@ const getAllCountry =async ()=>{
     data3.push(data[randomNumber]);
   }
   console.log(data3)
-   displayCountries(data3);
+   displayCountries(data);
    getCards(data)
   
 }
